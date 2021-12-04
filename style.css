@@ -1,0 +1,118 @@
+.shadow {
+   -moz-box-shadow:inset 0 0 10px #000000;
+   -webkit-box-shadow:inset 0 0 10px #000000;
+    box-shadow:inset 0 0 10px #000000;
+}
+
+#hero-section {
+  /* This should be an image. */
+    background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)), url(https://i.imgur.com/EwLc04A.jpg);
+    width:100%;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-color: alabaster;
+    min-height:75vh; 
+    
+}
+#hero-section h2 {
+  /* How to center text? */
+  text-align: center;
+}
+    
+#profile-img {
+  width: clamp(100px, 25vw, 200px);
+  max-height: 200px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border: 5px solid gray;
+}
+h1, p {
+  background: transparent;
+}
+p {
+  font-family: 'EB Garamond', serif;
+}
+h6 {
+  text-shadow: 2px 2px #000;
+}
+
+#profile-name {
+  color:rgba(25, 100, 250, 0.959);
+  }
+ em {
+  color:rgba(25, 100, 250, 0.959);
+  text-shadow: 2px 2px #000;
+  }
+   
+#profile-img:hover {
+   background-color: rgb(28, 0, 255, .5);
+   filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   transform: scale(1.2);
+   -webkit-transform: scale(1.2);
+   -moz-transform: scale(1.2);
+}
+
+  /* Add responsive vertical margins via clamp?*/
+body {
+  position: relative;
+}
+h4 {
+  /* font-size:30px; */
+  font-weight:500;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+h4:hover {
+  transition:transform .5s ease-in-out;
+  transform: scale(1) rotate(360deg);
+}
+#grasshopper {
+  width: 200px;
+  height:200px;
+}
+#grasshopper:hover {
+  transition:transform .5s ease-in-out;
+  transform: scale(2) rotate(40deg);
+}
+
+.mission-text {
+  text-align: right;
+}
+
+ #skills {
+   margin:20px; 
+   flex-basis: 15%;
+   /* flex-basis:15% lines up all four icons evenly for some reason. A flex basis of 100% makes the element take up the entire row, so the others will wrap underneath in a single column. */
+   /* display:flex; */
+   /* padding: clamp(10px, 5vh, 10px) auto;   */
+ }
+  .inline-box {
+    /* border:red 1px solid; */
+    width:200px; 
+    text-shadow: 2px 2px #000; 
+ } 
+ carousel-item img {
+   height:300px; 
+   width:100%; 
+   object-fit: cover;
+ }
+ /* contact section */
+ #social:hover {
+   color:#000; 
+   text-shadow: 2px 2px rgba(25, 100, 250, 0.959);
+ }
+  
+/* Footer section */
+ small { 
+   color:white;
+}
+                        /* Animation styling */
+ 
+ /* profile-name */
+ animate__animated animate__backInRight {
+   animation-delay: 30s;
+ }
