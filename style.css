@@ -16,6 +16,7 @@
     min-height:75vh; 
     
 }
+
 #hero-section h2 {
   /* How to center text? */
   text-align: center;
@@ -28,12 +29,20 @@
   border-radius: 50%;
   border: 5px solid gray;
 }
+
+#tag-line {
+  margin-bottom: 200px;
+}
+
+
 h1, p {
   background: transparent;
 }
+
 p {
   font-family: 'EB Garamond', serif;
 }
+
 h6 {
   text-shadow: 2px 2px #000;
 }
@@ -41,6 +50,7 @@ h6 {
 #profile-name {
   color:rgba(25, 100, 250, 0.959);
   }
+
  em {
   color:rgba(25, 100, 250, 0.959);
   text-shadow: 2px 2px #000;
@@ -60,20 +70,24 @@ h6 {
 body {
   position: relative;
 }
+
 h4 {
   /* font-size:30px; */
   font-weight:500;
   text-align: center;
   text-shadow: 2px 2px #000;
 }
+
 h4:hover {
   transition:transform .5s ease-in-out;
   transform: scale(1) rotate(360deg);
 }
+
 #grasshopper {
   width: 200px;
   height:200px;
 }
+
 #grasshopper:hover {
   transition:transform .5s ease-in-out;
   transform: scale(2) rotate(40deg);
@@ -90,16 +104,19 @@ h4:hover {
    /* display:flex; */
    /* padding: clamp(10px, 5vh, 10px) auto;   */
  }
+
   .inline-box {
     /* border:red 1px solid; */
     width:200px; 
     text-shadow: 2px 2px #000; 
  } 
+
  carousel-item img {
    height:300px; 
    width:100%; 
    object-fit: cover;
  }
+
  /* contact section */
  #social:hover {
    color:#000; 
